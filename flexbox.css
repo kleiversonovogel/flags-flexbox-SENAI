@@ -1,0 +1,224 @@
+.polonia{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+ }
+ 
+ body{
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: black;
+ }
+ 
+ .polonia{
+     display: flex;
+     flex-direction: column;
+     width: 300px;
+     height: 200px;
+ }
+ 
+ .polonia1{
+     flex: 1;
+     background-color: white;
+ }
+ 
+ .polonia2{
+     flex: 1;
+     background-color: red;
+ }
+ 
+ .italia{
+     margin: 1;
+     padding: 1;
+     box-sizing: border-box;
+ }
+ 
+ .italia{
+     display: flex;
+     flex-direction: row;
+     width: 300px;
+     height: 200px;
+ }
+ 
+ .italia1{
+     flex: 1;
+     background-color: green;
+ }
+ 
+ .italia2{
+     flex: 1;
+     background-color: white;
+ }
+ 
+ .italia3{
+     flex: 1;
+     background-color: red;
+ }
+ 
+ .japao{
+     margin: 2;
+     padding: 2;
+     box-sizing: border-box;
+ }
+ 
+ .japao{
+     width: 300px;
+     height: 200px;
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .japao1{
+     width: 100px;
+     height: 100px;
+     background-color: #bc002d;
+     border-radius: 50%;
+ }
+
+ .trindad {
+    margin: 2;
+    padding: 2;
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    /* box-sizing: border-box; */
+ }
+
+ .faixa-preta{
+    background-color: rgb(0, 0, 0);
+    width: 60px;
+    height: 500px;
+    border: 5px;
+    border-style:solid;
+    border-color: rgb(255, 255, 255);
+    transform: rotate(-45deg);
+ }
+
+ .suecia{
+    margin: 3;
+    padding: 3;
+    box-sizing: border-box;
+ }
+
+ .suecia{
+    width: 300px;
+    height: 200px;
+    background-color: #006aa7;
+    position: relative;
+ }
+
+ .suecia1{
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 50px;
+    height: 100%;
+    background-color: #fecc00;
+ }
+
+ .suecia2{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #fecc00;
+ }
+
+ .grecia {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+ }
+
+ .grecia1 {
+   width: 100%;
+   height: 20px;
+   background-color: navy;
+
+ }
+
+ .grecia2 {
+    width: 100%;
+   height: 30px;
+   background-color: rgb(255, 255, 255);
+ }
+
+ .grecia3 {
+    position: absolute;
+    width: 100px;
+   height: 100px;
+   background-color: navy;
+   display: flexbox;   
+ }
+
+ .grecia4 {
+    position: absolute;
+    width: 20px;
+    height: 110px;
+    background-color: #ffffff;
+    align-self: center;
+    margin-left: 40px;
+ }
+
+ .grecia5 {
+
+    position: absolute;
+    margin-top: 45px;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    align-self: center;
+ }
+
+ .bissau2{
+    width: 80px;
+    height: 200px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bissau{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(212, 208, 0);
+    display: flex;
+}
+.bissau3{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(3, 85, 9)
+}
+.bissau4{
+width: 70px;                  
+height: 70px;                          
+background-color: rgb(0, 0, 0);                                          
+border-radius: 100%;   
+clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );           
+}
+
