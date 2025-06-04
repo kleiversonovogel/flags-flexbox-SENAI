@@ -164,10 +164,13 @@ body{
 
 .kuwaitPreto{
     position: absolute;
-    width: 100px;
-    height: 200px;
-    background-color: black;
-    transform: rotateZ(deg);
+   width: 900px;
+   height: 300px;
+   background-color: black;
+   border-radius: 100%;
+   clip-path: polygon(0% 0%, 29.99% 39.50%, 29.99% 62.00%, 0% 100%);
+   margin-left: -40%;
+   margin-top: -17%;
 }
    
 
